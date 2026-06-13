@@ -21,7 +21,12 @@
 
 - ## Screenshots
 
-> _Add screenshots of your booking form and admin dashboard here._
+<img width="1708" height="851" alt="Screenshot 2026-06-13 at 8 37 58 PM" src="https://github.com/user-attachments/assets/0ce0d47d-c42d-47f8-89d9-a3f5e164d8be" />
+
+<img width="2396" height="2252" alt="screencapture-localhost-8000-book-php-2026-06-13-20_38_16" src="https://github.com/user-attachments/assets/4151fd09-72de-4b6a-97da-f37e9b2fe681" />
+
+<img width="1710" height="862" alt="Screenshot 2026-06-13 at 8 37 15 PM" src="https://github.com/user-attachments/assets/f423c52a-f2eb-4d2b-b4b2-6ed1f0136861" />
+
 
 ## Tech Stack
 
