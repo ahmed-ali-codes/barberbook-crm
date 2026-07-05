@@ -64,7 +64,7 @@ Visit:
 | Username | admin      |
 | Password | admin123   |
 
-> Change the bcrypt hash in admin/login.php before going live.
+> Change the bcrypt hash in includes/config.php before going live.
 > Generate a new hash: echo password_hash('yourpass', PASSWORD_BCRYPT);
 
 ## File Structure
