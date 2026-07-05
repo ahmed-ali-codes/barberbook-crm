@@ -1,3 +1,6 @@
+# Sensitive config (use config.example.php as template)
+includes/config.php
+
 data/*.json
 .DS_Store
 .idea
