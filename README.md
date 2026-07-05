@@ -18,6 +18,7 @@
 - Filters — service type, stylist, appointment type, date, status
 - Flat-file JSON storage — zero SQL setup required
 - bcrypt password login + PHP session auth
+- **Central Configuration** — easily customize clinic details, stylists, and services via `config.php`
 
 - ## Screenshots
 
@@ -51,7 +52,10 @@
 git clone https://github.com/YOUR_USERNAME/barberbook-crm.git
 cd barberbook-crm
 chmod 755 data/
+cp includes/config.example.php includes/config.php
 ```
+
+> **Note:** Open `includes/config.php` and update the admin credentials, clinic details, and services before deploying.
 
 Visit:
   http://localhost/barberbook-crm/          # Public Booking Form
@@ -78,6 +82,8 @@ barberbook-crm/
 │   └── meta.json
 ├── includes/
 │   ├── auth.php
+│   ├── config.example.php
+│   ├── config.php
 │   └── storage.php
 ├── admin/
 │   ├── login.php
@@ -120,8 +126,7 @@ barberbook-crm/
 - [ ] Walk-in queue tracker — live count of waiting clients
 - [ ] Stylist-specific schedule view
 - [ ] Recurring appointment support (weekly regulars)
-- [ ] CSRF token protection on all forms
-- [ ] config.php for salon name, stylist list, service menu"
+- [ ] CSRF token protection on all forms"
 
 "## Contributing
 
