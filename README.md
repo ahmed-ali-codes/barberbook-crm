@@ -63,13 +63,14 @@ Visit:
 
   ## Admin Login
 
-| Field    | Value      |
-|----------|------------|
-| Username | admin      |
-| Password | admin123   |
+There is no default password. Before you can log in, you must set your admin credentials in `includes/config.php`.
 
-> Change the bcrypt hash in includes/config.php before going live.
-> Generate a new hash: echo password_hash('yourpass', PASSWORD_BCRYPT);
+1. Generate a secure bcrypt password hash using PHP:
+   ```bash
+   php -r "echo password_hash('your_password_here', PASSWORD_BCRYPT, ['cost' => 12]);"
+   ```
+2. Open `includes/config.php` and paste the generated hash into `ADMIN_PASSWORD_HASH`.
+3. Set your preferred `ADMIN_USERNAME` (default is `admin`).
 
 ## File Structure
 
